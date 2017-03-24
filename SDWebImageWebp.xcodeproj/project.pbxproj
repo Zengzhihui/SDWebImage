@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		265239E81DB4C61D00DB6939 /* SDWebImageWebp.h in Headers */ = {isa = PBXBuildFile; fileRef = 265239E61DB4C61D00DB6939 /* SDWebImageWebp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26523A1C1DB4C66400DB6939 /* FLAnimatedImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 265239F01DB4C66400DB6939 /* FLAnimatedImageView+WebCache.h */; };
+		26523A1C1DB4C66400DB6939 /* FLAnimatedImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 265239F01DB4C66400DB6939 /* FLAnimatedImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26523A1D1DB4C66400DB6939 /* FLAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 265239F11DB4C66400DB6939 /* FLAnimatedImageView+WebCache.m */; };
 		26523A1E1DB4C66400DB6939 /* MKAnnotationView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 265239F21DB4C66400DB6939 /* MKAnnotationView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26523A1F1DB4C66400DB6939 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 265239F31DB4C66400DB6939 /* MKAnnotationView+WebCache.m */; };
@@ -50,7 +50,7 @@
 		26523A431DB4C66400DB6939 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 26523A171DB4C66400DB6939 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26523A441DB4C66400DB6939 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26523A181DB4C66400DB6939 /* UIView+WebCacheOperation.m */; };
 		26523A491DB4C6B000DB6939 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 26523A451DB4C6B000DB6939 /* FLAnimatedImage.h */; };
-		26523A4A1DB4C6B000DB6939 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26523A461DB4C6B000DB6939 /* FLAnimatedImageView.h */; };
+		26523A4A1DB4C6B000DB6939 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26523A461DB4C6B000DB6939 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26523A4B1DB4C6B000DB6939 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26523A471DB4C6B000DB6939 /* FLAnimatedImageView.m */; };
 		26523A4E1DB4C6E700DB6939 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26523A4D1DB4C6E700DB6939 /* FLAnimatedImage.m */; };
 		26523C881DB4D52700DB6939 /* alpha.c in Sources */ = {isa = PBXBuildFile; fileRef = 26523BF11DB4D52700DB6939 /* alpha.c */; };
@@ -752,6 +752,8 @@
 				26523A391DB4C66400DB6939 /* UIImage+MultiFormat.h in Headers */,
 				26523A3F1DB4C66400DB6939 /* UIImageView+WebCache.h in Headers */,
 				26523A2C1DB4C66400DB6939 /* SDWebImageDownloader.h in Headers */,
+				26523A1C1DB4C66400DB6939 /* FLAnimatedImageView+WebCache.h in Headers */,
+				26523A4A1DB4C6B000DB6939 /* FLAnimatedImageView.h in Headers */,
 				26523A321DB4C66400DB6939 /* SDWebImageOperation.h in Headers */,
 				26523A411DB4C66400DB6939 /* UIView+WebCache.h in Headers */,
 				26523CF81DB4D52800DB6939 /* bit_reader.h in Headers */,
@@ -764,7 +766,6 @@
 				26523D121DB4D52800DB6939 /* demux.h in Headers */,
 				26523CFB1DB4D52800DB6939 /* bit_writer.h in Headers */,
 				26523D131DB4D52800DB6939 /* encode.h in Headers */,
-				26523A1C1DB4C66400DB6939 /* FLAnimatedImageView+WebCache.h in Headers */,
 				26523D151DB4D52800DB6939 /* format_constants.h in Headers */,
 				26523C8B1DB4D52700DB6939 /* common.h in Headers */,
 				26523CD91DB4D52700DB6939 /* backward_references.h in Headers */,
@@ -783,7 +784,6 @@
 				26523D001DB4D52800DB6939 /* filters.h in Headers */,
 				26523C971DB4D52700DB6939 /* webpi.h in Headers */,
 				265239E81DB4C61D00DB6939 /* SDWebImageWebp.h in Headers */,
-				26523A4A1DB4C6B000DB6939 /* FLAnimatedImageView.h in Headers */,
 				26523D171DB4D52800DB6939 /* mux_types.h in Headers */,
 				26523CFE1DB4D52800DB6939 /* endian_inl.h in Headers */,
 				26523CF41DB4D52700DB6939 /* muxi.h in Headers */,
